@@ -78,7 +78,7 @@ var oldRoomResponse = {"create":true,"server":accessibleHost}
 
 function httpHandle(req, res) {
     console.log('HTTP: ' + req.url);
-    console.log('PORT: ' + 443)
+    console.log(443)
     // Ecast room create
     if (req.method == 'POST' && req.url == '/api/v2/rooms') {
         var data = "";
